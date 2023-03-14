@@ -12,9 +12,8 @@ int main()
 {
     const int MAX = 100000000;
     clock_t start, end;
-    start = clock();
-
     printf("Starting c test...\n");
+    start = clock();
     int points[10];
     int p=0;
     for (int i = 0; i < MAX; i+=(MAX/10))

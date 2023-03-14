@@ -9,7 +9,6 @@ def main():
     points = [j for j in range(0, MAX, MAX // 10)]
     for i in range(MAX):
         if i in points:
-            pass
             print("{}%".format(points.index(i) * 10))
 
 
